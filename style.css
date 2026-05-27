@@ -18,15 +18,14 @@
         }
 
         .image {
-            width: 100%;
             padding: 0;
 
         }
 
         .image img {
-            width: 100%;
+            width: 98%;
             height: auto;
-            margin: 50px 0px;
+            overflow:auto;
         }
 
         @keyframes img-zoom {
@@ -42,6 +41,7 @@
         .image img:hover {
             animation: img-zoom 0.2s linear 1 forwards;
             box-shadow: 0 0 70px 5px #000000;
+            
         }
 
         /* h1 {} */
